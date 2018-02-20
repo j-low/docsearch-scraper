@@ -1,0 +1,17 @@
+{
+  "index_name": "cockroachlabs_blog",
+  "start_urls": [
+    "https://www.cockroachlabs.com/blog/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl1": ".blog-article__title h1",
+    "lvl2": ".blog-article__content h2",
+    "lvl3": ".blog-article__content h3",
+    "lvl4": ".blog-article__content h4",
+    "text": ".blog-article__content p, .blog-article__content li"
+  },
+  "scrape_start_urls": false,
+  "min_indexed_level": 1,
+  "nb_hits_max": 3000
+}
